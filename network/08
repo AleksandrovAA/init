@@ -1,0 +1,7 @@
+#!/bin/bash
+# Нахождение хостинг-провайдера/владельца частного домена
+# Сначала определяем IP-адреса dns
+host -t a slash16.org
+# Вводим один из адресов и определяем провайдера(Amazon.com)
+whois 13.33.242.31 | grep ".com"
+# проверить можно по https://2ip.ua/ru/services/information-service/hosting-information?a=act

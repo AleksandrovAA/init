@@ -1,0 +1,4 @@
+#!/bin/bash
+# route -n - таблица маршрутизации, get default - информация об основном шлюзе
+# Определение шлюза по умолчанию
+route -n get default | grep "gateway" | awk '{print$2}'

@@ -1,0 +1,4 @@
+#!/bin/bash
+# nslookup - запрос системы доменных имен(DNS)
+# IP-адрес сервера, на котором лежит slash16.org
+nslookup slash16.org | grep "Server:" | awk '{print$2}'

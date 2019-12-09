@@ -1,0 +1,6 @@
+#!/bin/bash
+# По ip, назначенному компьютеру, можно узнать имя моего хоста
+# host(nslookup - аналог) 192.168.23.113
+mi-r1.21-school.ru.
+# Выводит только имя
+# for OUT in $(ifconfig en0 | grep "inet " | awk '{print $2}'); do nslookup $OUT | grep name | awk '{print $4}'; done

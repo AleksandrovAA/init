@@ -1,0 +1,3 @@
+#!/bin/bash
+# Список широковещательных адресов
+ifconfig | grep "broadcast" | cut -d " " -f 6

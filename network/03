@@ -1,0 +1,3 @@
+#!/bin/bash
+# Определяет Mac-адрес wi-fi, который хранится в en1
+ifconfig en1 | grep "ether " | awk '{print $2}'
