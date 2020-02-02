@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# В файле хранится информация о версии Debian
+cat /etc/issue
+# Более точная версия в /etc/debian_version

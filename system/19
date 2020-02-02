@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Список всех сервисов, которые запускаются при загрузке
+systemctl list-units --type service | grep ".service" | awk '{print $1}'
+#https://askubuntu.com/questions/912216/16-04-command-to-list-all-services-started-on-boot

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Список всех пакетов
+apt list —installed
+#https://www.rosehosting.com/blog/list-all-installed-packages-with-apt-on-ubuntu/

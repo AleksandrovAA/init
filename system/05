@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#sudo apt-get update
+#sudo apt install openssh-server - обновление хранилищ ПО
+#Проверка состояния службы ssh(active/inactive)
+sudo systemctl status ssh
+#SSH - это зашифрованный протокол, с помощью которого вы можете получить доступ к своему облачному серверу и запускать команды оболочки. Вы можете использовать ключи SSH для идентификации доверенных компьютеров без паролей и для взаимодействия с вашими серверами
+#sudo service ssh stop(или start) - изменить состояние
+#https://phoenixnap.com/kb/how-to-enable-ssh-on-debian

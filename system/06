@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Перезапуск ssh, в результате состояние службы будет активным
+sudo systemctl restart ssh

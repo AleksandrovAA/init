@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ssh-keygen - создание ключей, появляется папка с ключами в папке:
+~/.ssh/
+#https://www.ibm.com/support/knowledgecenter/SSIGMP_1.0.0/igi/unixandlinux/install_config/t_key_unilinux.htm
+#https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Определение доступного пространства на дисках в удобочитаемом формате
+df -h
+#https://www.tecmint.com/how-to-check-disk-space-in-linux/

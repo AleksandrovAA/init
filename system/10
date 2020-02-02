@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Проверка разделов жесткого диска
+lsblk
+# аналог - df -h
+#https://www.binarytides.com/linux-command-check-disk-partitions/

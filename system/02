@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Команда hostnamectl показывает текущие настройки
+#С помощью этой команды меняем имя хоста на new_name
+hostnamectl set-hostname new_name
+#hostname покажет новое имя хоста

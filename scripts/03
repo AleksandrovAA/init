@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Изменение срока действия учетной записи
+usermod -e YYYY-MM-DD user_name
+chage -l user_name
+#И проверка текущего состояния срока действия учетки
+#https://www.tecmint.com/usermod-command-examples/

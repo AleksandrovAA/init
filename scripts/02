@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#Пример удаления активного пользователя на ВМ
+id vivek
+#Числа, которые будут выведены, потом подставить в строку с архивированием
+passwd -l vivek
+usermod --expiredate 1 vivek
+#Заблокировать учетную запись vivek и изменить дату, на которую учетка будет отключена
+tar -zcvf /nas/backup/account/deleted/v/vivek.$uid.$now.tar.gz /home/vivek/
+#Копирование файлов из home в nas/backup
+ps -fp $(pgrep -u vivek)
+#Вывод таблицы с активными номерами процессов PID
+killall -KILL -u vivek
+crontab -r -u vivek
+userdel -r vivek
+#Убить процессы, удалить работу для vivek'а, самого пользователя
+#https://www.cyberciti.biz/faq/linux-remove-user-command/

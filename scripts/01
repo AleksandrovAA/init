@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Отображение логина, UID, пути каждой записи
+cat /etc/passwd | awk -F':' '{print $1 $3 $7}'
+#https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Запуск определенных команд периодически
+#crontab
+#https://kvz.io/schedule-tasks-on-linux-using-crontab.html

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Остановка работы службы ssh
+sudo service ssh stop

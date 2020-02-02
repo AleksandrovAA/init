@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Добавление нового локального пользователя
+sudo adduser new_name
+#useradd new_name - аналог
+#https://www.tecmint.com/add-users-in-linux/

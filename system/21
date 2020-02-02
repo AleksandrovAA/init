@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Список всех реальных пользователей на VM
+cat /etc/passwd | grep '/home' | cut -d: -f1
+#https://unix.stackexchange.com/questions/423850/how-to-list-users-in-linux-local-remote-real-and-all-users

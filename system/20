@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Все существующие пользователи на VM - виртуальной машине
+cat /etc/passwd | awk -F':' '{print $1}'
+#https://www.cyberciti.biz/faq/linux-list-users-command/
